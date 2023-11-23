@@ -1,0 +1,22 @@
+{
+	"name": "to-unocss",
+	"id": "1309119336695586856",
+	"api": "1.0.0",
+	"main": "dist/code.js",
+	"capabilities": ["codegen"],
+	"codegenLanguages": [
+		{
+			"label": "unocss",
+			"value": "html"
+		},
+		{
+			"label": "css",
+			"value": "css"
+		}
+	],
+	"enableProposedApi": false,
+	"editorType": ["dev"],
+	"networkAccess": {
+		"allowedDomains": ["none"]
+	}
+}

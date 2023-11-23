@@ -1,0 +1,25 @@
+{
+	"name": "to-unocss",
+	"version": "1.0.0",
+	"description": "Your Figma Plugin",
+	"main": "code.js",
+	"scripts": {
+		"build": "tsup",
+		"watch": "npm run build -- --watch"
+	},
+	"bugs": {
+		"url": "https://github.com/zouhangwithsweet/figma-to-unocss/issues"
+	},
+	"homepage": "https://github.com/zouhangwithsweet/figma-to-unocss#readme",
+	"author": "imranbarbhuiya",
+	"license": "MIT",
+	"dependencies": {
+		"transform-to-unocss-core": "^0.0.8"
+	},
+	"devDependencies": {
+		"@figma/plugin-typings": "^1.79.0",
+		"prettier": "^3.0.3",
+		"tsup": "^8.0.1",
+		"typescript": "^5.2.2"
+	}
+}

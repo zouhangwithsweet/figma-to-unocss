@@ -1,6 +1,6 @@
 # unocss codegen
 
-> fork from `tailwindcss codegen`
+> fork from [`tailwindcss codegen`](https://github.com/imranbarbhuiya/figma-tailwindcss)
 
 This plugin generates unocss class names in Figma's dev mode.
 

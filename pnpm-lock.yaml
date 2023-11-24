@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   transform-to-unocss-core:
-    specifier: ^0.0.8
-    version: 0.0.8
+    specifier: ^0.0.13
+    version: 0.0.13
 
 devDependencies:
   '@figma/plugin-typings':
@@ -916,8 +916,8 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /transform-to-unocss-core@0.0.8:
-    resolution: {integrity: sha512-4FNJs/9laLhdhLRLzarUuJLOyafK+Lx0mfPNi4ckRjg21cgPuLLi1ZudfQA7BscdJleCzLnmeYkRJnQGEp7mSg==}
+  /transform-to-unocss-core@0.0.13:
+    resolution: {integrity: sha512-KrgO9YLNcPQYG87kBUCa6zRyv/0VuFETJlVuWfwPlxjYiCDKIGn8bi7I/aAjSPWaqF5pIDiBvx1Bl/05uyuwhg==}
     hasBin: true
     dev: false
 

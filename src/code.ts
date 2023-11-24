@@ -11,7 +11,7 @@ figma.codegen.on('generate', async (e) => {
 
   const uno = Object.entries(cssObj)
     .map(([key, value]) => `${key}: ${value.replace(/\/\*.*\*\//g, '').trim()}`)
-    .map((i) => toUnocssClass(i, true)[0].replace(/-(var\(.*\))/g, (_, $1) => `-[${$1.replace(/\s/g, '_')}]`))
+    .map((i) => toUnocssClass(i, true)[0])
     .join(' ');
 
   return [

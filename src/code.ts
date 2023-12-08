@@ -20,6 +20,7 @@ figma.codegen.on('generate', async (e) => {
     .map((i) => toUnocssClass(i, true)[0])
     .join(' ')
     .replace(/border-(\d+\.\d+|\d+)/g, (_, $1) => `border-${(Number($1) * 4)}`)
+    .replace(/(border-[xylrtb]-)(\d+\.\d+|\d+)/g, (_, $1, $2) => `${$1}${(Number($2) * 4)}`)
     .replace(/(p[xylrtb])-(\d+\.\d+|\d+)px/g, (_, $1, $2) => `${$1}-${$2 / 4}`);
 
   return [

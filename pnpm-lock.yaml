@@ -13,8 +13,8 @@ importers:
         version: 0.0.31
     devDependencies:
       '@figma/plugin-typings':
-        specifier: ^1.79.0
-        version: 1.81.0
+        specifier: ^1.98.0
+        version: 1.98.0
       prettier:
         specifier: ^3.0.3
         version: 3.1.0
@@ -159,8 +159,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@figma/plugin-typings@1.81.0':
-    resolution: {integrity: sha512-gy/q4Aa/oVmN9PxdrUyuiMpoBpXAkGIpbe4nqHiKK1TDjrxW3ZBwmYzCM3uGUTC63xhwk99vExbBxaHsoSrAGw==}
+  '@figma/plugin-typings@1.98.0':
+    resolution: {integrity: sha512-Bx5pBRf8XWeAFbDtKfdiUEM/UkCHyl4baOGb+7OPM0ozrzg5JNDH/BsrGA4EpuJKkS4uRmV525q3g067OX6VHg==}
 
   '@jridgewell/gen-mapping@0.3.3':
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -683,7 +683,7 @@ snapshots:
   '@esbuild/win32-x64@0.19.7':
     optional: true
 
-  '@figma/plugin-typings@1.81.0': {}
+  '@figma/plugin-typings@1.98.0': {}
 
   '@jridgewell/gen-mapping@0.3.3':
     dependencies:

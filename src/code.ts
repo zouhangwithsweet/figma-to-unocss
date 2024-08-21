@@ -43,12 +43,12 @@ figma.codegen.on('generate', async (e) => {
     {
       title: 'unocss',
       code: uno,
-      language: 'HTML'
+      language: "RUST"
     },
     {
       title: 'unocss-mini (without default properties)',
       code: unoMini,
-      language: 'HTML'
+      language: 'RUST'
     },
     {
       title: 'css',

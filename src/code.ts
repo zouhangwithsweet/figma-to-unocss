@@ -32,7 +32,7 @@ figma.codegen.on('generate', async (e) => {
           .trim()}`
     )
     .map((i) => toUnocssClass(i, true)[0])
-    .filter((i) => !i.startsWith('font-not-italic') && !i.startsWith('lh-normal'))
+    .filter((i) => ['lh-normal', 'font-not-italic', 'bg-[url(]'].every((item) => !i?.startsWith(item)))
     .join(' ')
     .replace(/border-(\d+\.\d+|\d+)/g, (_, $1) => `border-${Number($1) * 4}`)
     .replace(/(border-[xylrtb]-)(\d+\.\d+|\d+)/g, (_, $1, $2) => `${$1}${Number($2) * 4}`)

@@ -21,7 +21,7 @@ figma.codegen.on('generate', async (e) => {
     .replace(/border-(\d+\.\d+|\d+)/g, (_, $1) => `border-${Number($1) * 4}`)
     .replace(/(border-[xylrtb]-)(\d+\.\d+|\d+)/g, (_, $1, $2) => `${$1}${Number($2) * 4}`)
     .replace(/(p[xylrtb])-(\d+\.\d+|\d+)px/g, (_, $1, $2) => `${$1}-${$2 / 4}`);
-  console.log(uno)
+
   const unoMini = raw
     .filter(([key]) => !key.startsWith('font-family') && !key.startsWith('text-transform'))
     .map(
@@ -38,7 +38,7 @@ figma.codegen.on('generate', async (e) => {
     .replace(/border-(\d+\.\d+|\d+)/g, (_, $1) => `border-${Number($1) * 4}`)
     .replace(/(border-[xylrtb]-)(\d+\.\d+|\d+)/g, (_, $1, $2) => `${$1}${Number($2) * 4}`)
     .replace(/(p[xylrtb])-(\d+\.\d+|\d+)px/g, (_, $1, $2) => `${$1}-${$2 / 4}`);
-  console.log(uno)
+
   return [
     {
       title: 'unocss',

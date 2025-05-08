@@ -8,9 +8,12 @@ importers:
 
   .:
     dependencies:
+      transform-to-tailwindcss-core:
+        specifier: ^0.0.28
+        version: 0.0.28
       transform-to-unocss-core:
-        specifier: ^0.0.31
-        version: 0.0.31
+        specifier: ^0.0.51
+        version: 0.0.51
     devDependencies:
       '@figma/plugin-typings':
         specifier: ^1.98.0
@@ -562,8 +565,12 @@ packages:
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
 
-  transform-to-unocss-core@0.0.31:
-    resolution: {integrity: sha512-hWvfbnFKAOQ6upqvWvsMWhHMEjjP9G1Gq8xrFUvARphOH0oyj48OHckxzJWrawXyzWgCN5nUA6wU0hKnM+xr7g==}
+  transform-to-tailwindcss-core@0.0.28:
+    resolution: {integrity: sha512-BWakwSLOO9+06IR+mV6JhVgD/2HzNeVLjSi2d5imEgnejJfEGHrIkuJb8Xha9xz+SeG7UckcOosIID9CHFUWwQ==}
+    hasBin: true
+
+  transform-to-unocss-core@0.0.51:
+    resolution: {integrity: sha512-Ei/d6DDiLRfdiv9+Z+vL3rsntyfNuaP0S1mwSvsq0UUDO2elPyJg4o0NVS3tvN8+NDNxoUWDZK/aqO0N+R2Ltw==}
     hasBin: true
 
   tree-kill@1.2.2:
@@ -1058,7 +1065,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  transform-to-unocss-core@0.0.31: {}
+  transform-to-tailwindcss-core@0.0.28: {}
+
+  transform-to-unocss-core@0.0.51: {}
 
   tree-kill@1.2.2: {}
 

@@ -14,7 +14,8 @@
 	"author": "imranbarbhuiya",
 	"license": "MIT",
 	"dependencies": {
-		"transform-to-unocss-core": "^0.0.31"
+		"transform-to-tailwindcss-core": "^0.0.28",
+		"transform-to-unocss-core": "^0.0.51"
 	},
 	"devDependencies": {
 		"@figma/plugin-typings": "^1.98.0",

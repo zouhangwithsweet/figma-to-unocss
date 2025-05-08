@@ -21,6 +21,7 @@
     "@babel/preset-env": "^7.27.2",
     "@figma/plugin-typings": "^1.98.0",
     "@rollup/plugin-babel": "^6.0.4",
+    "core-js": "^3.42.0",
     "prettier": "^3.0.3",
     "tsdown": "^0.11.1",
     "typescript": "^5.2.2"

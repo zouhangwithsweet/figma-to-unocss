@@ -11,6 +11,8 @@ export default defineConfig({
   target: 'node12',
   noExternal: ['transform-to-tailwindcss-core', 'transform-to-unocss-core'],
   plugins: [
-    babel() as any
+    babel({
+      babelHelpers: 'bundled',
+    }) as any
   ]
 });

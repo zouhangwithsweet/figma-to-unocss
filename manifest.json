@@ -16,6 +16,14 @@
 			"value": "html"
 		},
 		{
+			"label": "tailwindcss",
+			"value": "html"
+		},
+		{
+			"label": "tailwindcss-mini",
+			"value": "html"
+		},
+		{
 			"label": "css",
 			"value": "css"
 		}

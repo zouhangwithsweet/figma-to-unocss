@@ -2,7 +2,7 @@
 	"name": "to-unocss",
 	"id": "1309119336695586856",
 	"api": "1.0.0",
-	"main": "dist/code.js",
+	"main": "dist/code.iife.js",
 	"capabilities": [
 		"codegen"
 	],

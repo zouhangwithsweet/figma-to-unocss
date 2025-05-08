@@ -1,26 +1,28 @@
 {
-	"name": "to-unocss",
-	"version": "1.0.0",
-	"description": "Your Figma Plugin",
-	"main": "code.js",
-	"scripts": {
-		"build": "tsup",
-		"dev": "tsup --watch"
-	},
-	"bugs": {
-		"url": "https://github.com/zouhangwithsweet/figma-to-unocss/issues"
-	},
-	"homepage": "https://github.com/zouhangwithsweet/figma-to-unocss#readme",
-	"author": "imranbarbhuiya",
-	"license": "MIT",
-	"dependencies": {
-		"transform-to-tailwindcss-core": "^0.0.28",
-		"transform-to-unocss-core": "^0.0.51"
-	},
-	"devDependencies": {
-		"@figma/plugin-typings": "^1.98.0",
-		"prettier": "^3.0.3",
-		"tsup": "^8.0.1",
-		"typescript": "^5.2.2"
-	}
+  "name": "to-unocss",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/zouhangwithsweet/figma-to-unocss/issues"
+  },
+  "homepage": "https://github.com/zouhangwithsweet/figma-to-unocss#readme",
+  "author": "imranbarbhuiya",
+  "license": "MIT",
+  "dependencies": {
+    "transform-to-tailwindcss-core": "^0.0.28",
+    "transform-to-unocss-core": "^0.0.51"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@figma/plugin-typings": "^1.98.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "prettier": "^3.0.3",
+    "tsdown": "^0.11.1",
+    "typescript": "^5.2.2"
+  }
 }

@@ -10,8 +10,8 @@ figma.codegen.on('generate', async (e) => {
 
   const uno = toClass(raw, 'unocss');
   const unoMini = toMiniClass(raw, 'unocss');
-  const tailwind = toClass(raw, 'tailwindcss');
-  const tailwindMini = toMiniClass(raw, 'tailwindcss');
+  const tailwind = toClass(raw, 'tailwindcss', false);
+  const tailwindMini = toMiniClass(raw, 'tailwindcss', false);
 
   return [
     {
@@ -52,7 +52,7 @@ function toClass(raw: [string, string][], engine: 'unocss' | 'tailwindcss' = 'un
           .replace(/var\(--[\w-]*,\s*(.*)\)/g, (_, $1) => $1)
           .trim()}`
     )
-    .map((i) => (engine === 'unocss' ? toUnocssClass(i, true)[0] : toTailwindcss(i, true)))
+    .map((i) => (engine === 'unocss' ? toUnocssClass(i, isRem)[0] : toTailwindcss(i, isRem)))
     .sort((a, b) => a.localeCompare(b))
     .join(' ')
     .replace(/border-(\d+\.\d+|\d+)/g, (_, $1) => `border-${Number($1) * 4}`)
@@ -70,7 +70,7 @@ function toMiniClass(raw: [string, string][], engine: 'unocss' | 'tailwindcss' =
           .replace(/var\(--[\w-]*,\s*(.*)\)/g, (_, $1) => $1)
           .trim()}`
     )
-    .map((i) => (engine === 'unocss' ? toUnocssClass(i, true)[0] : toTailwindcss(i, true)))
+    .map((i) => (engine === 'unocss' ? toUnocssClass(i, isRem)[0] : toTailwindcss(i, isRem)))
     .sort((a, b) => a.localeCompare(b))
     .filter((i) => ['lh-normal', 'font-not-italic', 'bg-[url(]'].every((item) => !i?.startsWith(item)))
     .join(' ')

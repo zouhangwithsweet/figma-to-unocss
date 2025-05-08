@@ -3,7 +3,9 @@
 	"id": "1309119336695586856",
 	"api": "1.0.0",
 	"main": "dist/code.js",
-	"capabilities": ["codegen"],
+	"capabilities": [
+		"codegen"
+	],
 	"codegenLanguages": [
 		{
 			"label": "unocss",
@@ -19,8 +21,13 @@
 		}
 	],
 	"enableProposedApi": false,
-	"editorType": ["dev"],
+	"editorType": [
+		"dev",
+		"figma"
+	],
 	"networkAccess": {
-		"allowedDomains": ["none"]
+		"allowedDomains": [
+			"none"
+		]
 	}
 }

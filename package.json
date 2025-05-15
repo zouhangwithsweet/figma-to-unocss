@@ -14,8 +14,8 @@
   "author": "imranbarbhuiya",
   "license": "MIT",
   "dependencies": {
-    "transform-to-tailwindcss-core": "^0.0.28",
-    "transform-to-unocss-core": "^0.0.51"
+    "transform-to-tailwindcss-core": "^0.0.33",
+    "transform-to-unocss-core": "^0.0.63"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.27.2",

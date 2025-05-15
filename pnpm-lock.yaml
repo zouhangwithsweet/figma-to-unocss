@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       transform-to-tailwindcss-core:
-        specifier: ^0.0.28
-        version: 0.0.28
+        specifier: ^0.0.33
+        version: 0.0.33
       transform-to-unocss-core:
-        specifier: ^0.0.51
-        version: 0.0.51
+        specifier: ^0.0.63
+        version: 0.0.63
     devDependencies:
       '@babel/preset-env':
         specifier: ^7.27.2
@@ -1033,12 +1033,12 @@ packages:
     resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
     engines: {node: '>=12.0.0'}
 
-  transform-to-tailwindcss-core@0.0.28:
-    resolution: {integrity: sha512-BWakwSLOO9+06IR+mV6JhVgD/2HzNeVLjSi2d5imEgnejJfEGHrIkuJb8Xha9xz+SeG7UckcOosIID9CHFUWwQ==}
+  transform-to-tailwindcss-core@0.0.33:
+    resolution: {integrity: sha512-Ktt0HnW3OW9kBmnNmmdW2MHPZR81wsKHtTeUfFxahkSaFY4jfp/XFj1jwTF7fK9gApPw/eQ0MAraeahbobdd4w==}
     hasBin: true
 
-  transform-to-unocss-core@0.0.51:
-    resolution: {integrity: sha512-Ei/d6DDiLRfdiv9+Z+vL3rsntyfNuaP0S1mwSvsq0UUDO2elPyJg4o0NVS3tvN8+NDNxoUWDZK/aqO0N+R2Ltw==}
+  transform-to-unocss-core@0.0.63:
+    resolution: {integrity: sha512-C5nHSURFtiVA1QlxEnzy193D5LOkutB9piLJBQs0w0Ku25JlFJgewzqjHMGYcd3I2iCEc0v2uQDHRtaWRKKeaQ==}
     hasBin: true
 
   tsdown@0.11.1:
@@ -2169,9 +2169,9 @@ snapshots:
       fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
 
-  transform-to-tailwindcss-core@0.0.28: {}
+  transform-to-tailwindcss-core@0.0.33: {}
 
-  transform-to-unocss-core@0.0.51: {}
+  transform-to-unocss-core@0.0.63: {}
 
   tsdown@0.11.1(typescript@5.3.2):
     dependencies:

@@ -4,8 +4,9 @@
   "description": "Your Figma Plugin",
   "main": "code.js",
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch"
+    "build": "tsdown && pnpm minify",
+    "dev": "tsdown --watch",
+    "minify": "terser -c -o dist/code.iife.js dist/code.iife.js"
   },
   "bugs": {
     "url": "https://github.com/zouhangwithsweet/figma-to-unocss/issues"
@@ -23,6 +24,7 @@
     "@rollup/plugin-babel": "^6.0.4",
     "core-js": "^3.42.0",
     "prettier": "^3.0.3",
+    "terser": "^5.39.2",
     "tsdown": "^0.11.1",
     "typescript": "^5.2.2"
   }
